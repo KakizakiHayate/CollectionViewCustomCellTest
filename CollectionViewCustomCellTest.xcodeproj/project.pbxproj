@@ -13,6 +13,8 @@
 		FB85192B2C3A90820000F15F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB85192A2C3A90820000F15F /* Base */; };
 		FB85192D2C3A90830000F15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB85192C2C3A90830000F15F /* Assets.xcassets */; };
 		FB8519302C3A90830000F15F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB85192F2C3A90830000F15F /* Base */; };
+		FB8519392C3A93EE0000F15F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8519382C3A93EE0000F15F /* CustomCell.xib */; };
+		FB85193A2C3A93EE0000F15F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8519372C3A93EE0000F15F /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB85192C2C3A90830000F15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB85192F2C3A90830000F15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB8519312C3A90830000F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8519372C3A93EE0000F15F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		FB8519382C3A93EE0000F15F /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB8519252C3A90820000F15F /* SceneDelegate.swift */,
 				FB8519272C3A90820000F15F /* ViewController.swift */,
 				FB8519292C3A90820000F15F /* Main.storyboard */,
+				FB8519372C3A93EE0000F15F /* CustomCell.swift */,
+				FB8519382C3A93EE0000F15F /* CustomCell.xib */,
 				FB85192C2C3A90830000F15F /* Assets.xcassets */,
 				FB85192E2C3A90830000F15F /* LaunchScreen.storyboard */,
 				FB8519312C3A90830000F15F /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				FB85192D2C3A90830000F15F /* Assets.xcassets in Resources */,
 				FB8519302C3A90830000F15F /* Base in Resources */,
+				FB8519392C3A93EE0000F15F /* CustomCell.xib in Resources */,
 				FB85192B2C3A90820000F15F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				FB8519282C3A90820000F15F /* ViewController.swift in Sources */,
 				FB8519242C3A90820000F15F /* AppDelegate.swift in Sources */,
+				FB85193A2C3A93EE0000F15F /* CustomCell.swift in Sources */,
 				FB8519262C3A90820000F15F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
